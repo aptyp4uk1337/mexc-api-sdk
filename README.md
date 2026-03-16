@@ -42,9 +42,11 @@ This is an unofficial *MEXC API SDK* with support for *futures* and *spot* tradi
 - ⚡ Blazing fast _(200 - 400 ms)_
 - 🔐 No third-party requests
 - 🌐 Works on mainnet & testnet
+- 🔀 Support for batch requests
 - 🥷🏻 Multi-accounting and proxy support _(HTTP/HTTPS/SOCKS5)_
+- 🫂 Ability to work with multiple accounts at the same time
 - ⚙️ Compatible with any programming language
-- ⌨️ Simple PHP, Python & Node.js library
+- ⌨️ Simple PHP, Python, Go, Rust, Java & Node.js library
 - 🆓 Free updates & support included
 - 🔔 TradingView Alerts Integration
 

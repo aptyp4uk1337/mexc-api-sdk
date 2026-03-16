@@ -1,5 +1,12 @@
 # 🆕 Changelog
 
+## 13.03.2026
+
+* Support for batch requests
+* Ability to work with multiple accounts at the same time
+* Improved structure and overall library performance
+* New languages: Java, Go, Rust
+
 ## 27.01.2026
 
 * Method parameters have been updated: Added `position_id` [getFuturesOpenPositions](./methods/getFuturesOpenPositions.md)
