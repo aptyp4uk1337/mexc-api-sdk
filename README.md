@@ -61,10 +61,11 @@ This is an unofficial *MEXC API SDK* with support for *futures* and *spot* tradi
 
 | Option          | Price      | Duration            | Includes                        |
 |-----------------|------------|---------------------|----------------------------------|
-| 🧪 [Trial](https://t.me/mexc_api_robot?start=trial)         | Free       | 6 hours    | Full access to all methods for the duration of testing |
-| 🤖 [MEXC1337 bot](https://t.me/mexc1337_robot)             | Free       | Lifetime   | Telegram MEXC Futures Trading bot |
-| 🔓 [API Subscription](https://t.me/aptyp4uk1337/19)             | $50        | 30 days    | Full access to all methods + updates |
-| 💾 [SDK Source Code](https://t.me/aptyp4uk1337/19)              | $200       | Lifetime   | Full source, no limits, no expiration, free updates |
+| <s>🧪 [Trial](https://t.me/mexc_api_robot?start=trial)</s>         | <s>Free</s>       | <s>6 hours</s>    | <s>Full access to all methods for the duration of testing</s> |
+| <s>🤖 [MEXC1337 bot](https://t.me/mexc1337_robot)</s>             | <s>Free</s>       | <s>Lifetime</s>   | <s>Telegram MEXC Futures Trading bot</s> |
+| <s>🔓 [API Subscription](https://t.me/aptyp4uk1337/19)</s>             | <s>$50</s>        | <s>30 days</s>    | <s>Full access to all methods + updates</s> |
+| 💾 [SDK Source Code](https://t.me/aptyp4uk1337/19)              | $175       | Lifetime   | Full source, no limits, no expiration, free updates |
+| 📈 [MEXC HFT Scalper](https://t.me/aptyp4uk1337/57)              | $250       | Lifetime   | MEXC API SDK + Sources of scalper + updates |
 | 🖥 [Multi-account interface](https://t.me/aptyp4uk1337/37)   | $250       | Lifetime   | MEXC API SDK + Sources of interface + updates |
 | 🪞 [Trading Mirror](https://t.me/aptyp4uk1337/39)           | $300       | Lifetime   | MEXC API SDK + Sources of mirroring + updates |
 | 🛠 [Custom development](https://t.me/aptyp4uk1337_bot)       | Personal   | Lifetime   | Individual development for your needs |
