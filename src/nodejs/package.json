@@ -1,0 +1,32 @@
+{
+  "name": "mexc-api-sdk",
+  "version": "2.0.0",
+  "description": "MEXC API SDK",
+  "main": "MexcBypass.js",
+  "scripts": {
+    "start": "node example.js"
+  },
+  "type": "module",
+  "keywords": [
+    "mexc",
+    "cryptocurrency",
+    "exchange",
+    "api",
+    "futures",
+    "trading"
+  ],
+  "author": "aptyp4uk1337",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "https-proxy-agent": "^8.0.0",
+    "install": "^0.13.0",
+    "npm": "^11.11.1",
+    "socks-proxy-agent": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
