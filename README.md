@@ -3,9 +3,14 @@
 </div>
 
 <div align="center">
-  <a href="/packages/php"><img src="https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white" alt="PHP"></a>
-  <a href="/packages/python"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python"></a>
-  <a href="/packages/nodejs"><img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" alt="Node.js"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/php"><img src="https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white" alt="PHP"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/python"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/nodejs"><img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" alt="Node.js"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/go"><img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white" alt="Go"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/rust"><img src="https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white" alt="Rust"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/java"><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/java"><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java"></a>
+  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/csharp"><img src="https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white" alt="C#"></a>
 </div>
 
 # 🔷 Unofficial MEXC API SDK
@@ -13,16 +18,6 @@
 This is an unofficial *MEXC API SDK* with support for *futures* and *spot* trading, as well as many other methods, providing full trading and account access, even if some routes are marked as "[Under maintenance](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance)".
 
 <br>
-
-> [!NOTE]
-> The source code of the library is not distributed openly. You can get access by contacting me on Telegram: [@aptyp4uk1337_bot](https://t.me/aptyp4uk1337_bot?text=%F0%9F%91%8B%20Hi%2C%20I%20am%20writing%20regarding%20the%20acquisition%20of%20MEXC%20Futures%20API.)
-
-<br>
-
-### 🔴 Live Demo
-
-* You can test the opening of a position yourself: https://mexc-bypass.xyz/demo
-* 6h free trial: [@mexc_api_robot](https://t.me/mexc_api_robot?start=trial) → `🆓 Get Free Trial`
 
 <div align="center">
   <img src="/assets/preview.gif" title="Telegram">
