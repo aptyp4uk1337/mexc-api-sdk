@@ -9,7 +9,6 @@
   <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/go"><img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white" alt="Go"></a>
   <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/rust"><img src="https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white" alt="Rust"></a>
   <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/java"><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java"></a>
-  <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/java"><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java"></a>
   <a href="https://github.com/aptyp4uk1337/mexc-api-sdk/tree/main/src/csharp"><img src="https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white" alt="C#"></a>
 </div>
 
