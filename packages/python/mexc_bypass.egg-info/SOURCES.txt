@@ -1,8 +1,0 @@
-README.md
-setup.py
-mexc_bypass.egg-info/PKG-INFO
-mexc_bypass.egg-info/SOURCES.txt
-mexc_bypass.egg-info/dependency_links.txt
-mexc_bypass.egg-info/top_level.txt
-src/MexcBypass.py
-src/__init__.py

@@ -1,5 +1,9 @@
 # 🆕 Changelog
 
+## 23.06.2026
+
+* Open Source is Here! All source code of the libraries is open: [/src/](./src/)
+
 ## 13.03.2026
 
 * Support for batch requests

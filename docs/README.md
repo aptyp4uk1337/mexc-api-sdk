@@ -2,6 +2,7 @@
 
 This project provides a wrapper around the MEXC Futures API with support for proxy usage, testnet/mainnet environments, and custom authorization headers. It is designed for fast and convenient access to MEXC methods without direct login.
 
+<!--
 ## 🌐 Base URL
 
 ```
@@ -18,6 +19,8 @@ All requests must include the following headers:
 | `X-MEXC-WEB-KEY`        | ❌       | Optional MEXC web key. Used only in some methods.                           |
 | `X-MEXC-NETWORK`        | ❌       | Network type: `TESTNET` (default) or `MAINNET`.                             |
 | `X-MEXC-PROXY`          | ❌       | Optional proxy URL (supports `http://` or `socks5://`).                     |
+
+-->
 
 ---
 
@@ -87,6 +90,8 @@ All requests must include the following headers:
 | [**changeFuturesPlanOrderStopLimitPrice**](/docs/methods/changeFuturesPlanOrderStopLimitPrice.md) | Futures | Switch the Stop-Limit price of trigger orders. |
 | [**changeFuturesOrderTargets**](/docs/methods/changeFuturesOrderTargets.md) | Futures | Switch the take profit price & stop loss price (fixed). |
 | [**receiveFuturesTestnetAsset**](/docs/methods/receiveFuturesTestnetAsset.md) | Futures | Receive futures testnet assets. |
+
+<!--
 
 ## 📦 Quick Example
 
@@ -162,6 +167,8 @@ X-MEXC-PROXY: socks5://user:pass@127.0.0.1:9050
 
 This allows you to route API requests through your own proxy.
 
+-->
+
 ---
 
 ## 📚 Documentation & Guides
@@ -177,6 +184,8 @@ Expand your knowledge and integrate faster with these helpful articles:
 | 🛑 [How to change TP / SL?](./change_tp_sl.md) | Current method of multiple changes of order TP/SL. |
 | 🚧 [Error Codes](./error_codes.md) | Description of the error code that the endpoint may return. |
 
+<!--
+
 ---
 
 ## 📥 Postman Collection
@@ -189,3 +198,5 @@ Want to test the API easily?
   2. Click **Import**
   3. Choose **Link** or **Upload File**
   4. Paste the link above or select the file
+
+-->

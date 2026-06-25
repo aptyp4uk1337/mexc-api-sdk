@@ -22,8 +22,6 @@ This is an unofficial *MEXC API SDK* with support for *futures* and *spot* tradi
   <img src="/assets/preview.gif" title="Telegram">
 </div>
 
-> **Demo file:** [./demo/app.js](/main/demo/app.js)
-
 ---
 
 ## 🎖 Features
@@ -36,8 +34,6 @@ This is an unofficial *MEXC API SDK* with support for *futures* and *spot* tradi
 - 🫂 Ability to work with multiple accounts at the same time
 - ⚙️ Compatible with any programming language
 - ⌨️ Simple PHP, Python, Go, Rust, Java & Node.js library
-- 🆓 Free updates & support included
-- 🔔 TradingView Alerts Integration
 
 ---
 
@@ -73,37 +69,39 @@ This is an unofficial *MEXC API SDK* with support for *futures* and *spot* tradi
   <img src="/assets/rate-limit-test.png" title="Telegram">
 </div>
 
-> **Demo file:** [./demo/rate_limit_test.js](/demo/rate_limit_test.js)
-
 ---
 
-### 🚀 API initialization
+### 💥 Node.js example
 
 ```JS
-import { MexcClient } from './MexcClient.js';
+import { MexcBypass } from './MexcBypass.js';
 
-const client = new MexcClient({
-  apiKey: 'YOUR_API_KEY',
-  isTestnet: false,
-  proxy: 'socks5://user:pass@127.0.0.1:1080', // socks5://user:pass@host:port || http://user:pass@host:port
-});
-```
+const client = new MexcBypass('YOUR_MEXC_WEB_KEY', true, null);
 
-### 💥 Create Order Example
+try {
+  const results = await client.batch({
+    assets: () => client.getFuturesAssets({ currency: 'USDT' }),
+    positions: () => client.getFuturesOpenPositions(),
+    ticker_btc: () => client.getFuturesTickers({ symbol: 'BTC_USDT' }),
+  });
 
-```JS
-import { MexcClient } from './MexcClient.js';
+  console.log('USDT Balance:', results.assets?.data?.availableBalance ?? 'N/A');
+  console.log('Open positions:', results.positions?.data ?? []);
+  console.log('BTC Price:', results.ticker_btc?.data?.lastPrice ?? 'N/A');
 
-const client = new MexcClient({ apiKey: 'YOUR_API_KEY', isTestnet: true });
+  const order = await client.createFuturesOrder({
+    symbol: 'BTC_USDT',
+    side: 1,
+    type: 5,
+    open_type: 1,
+    vol: 1,
+    leverage: 10
+  });
 
-const order = await client.createOrder({
-  symbol: 'BTC_USDT',
-  type: 5,
-  side: 1,
-  openType: 2,
-  vol: 15,
-  leverage: 25
-});
+  console.log('Order created:', JSON.stringify(order, null, 2));
+} catch (error) {
+  console.error('Error:', error);
+}
 ```
 
 ---
