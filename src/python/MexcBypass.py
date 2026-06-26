@@ -328,7 +328,13 @@ class MexcBypass:
         origin = self._extract_origin(base_url)
         headers = self._build_headers(api_type, sig, origin)
         url = self._build_url(base_url, endpoint, method, params)
-        body = params if method.has_body else None
+
+        if method.has_body and params:
+            raw_body = json.dumps(params, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+        elif method.has_body:
+            raw_body = b""
+        else:
+            raw_body = None
 
         session = await self._get_session()
 
@@ -345,7 +351,7 @@ class MexcBypass:
                 method=method.value,
                 url=url,
                 headers=headers,
-                json=body,
+                data=raw_body,
                 ssl=False,
                 allow_redirects=False,
                 **use_proxy_params
